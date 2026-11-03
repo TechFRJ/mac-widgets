@@ -1,0 +1,7 @@
+{
+  "uuid": "mac-widgets@barnswallow.com.br",
+  "name": "Mac Widgets",
+  "description": "Widgets estilo macOS na área de trabalho: relógio, cotações, fotos, Spotify, YouTube, IA e mais.",
+  "shell-version": ["50"],
+  "version": 1
+}

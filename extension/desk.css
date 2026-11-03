@@ -1,0 +1,108 @@
+/* Mac Widgets — tamanhos em em acompanham a escala de cada widget */
+.mw-widget {
+  color: #f5f5f7;
+  font-family: "Ubuntu Sans", sans-serif;
+  font-feature-settings: "tnum";
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.35);
+}
+.mw-light { color: #1c1c1e; border-color: rgba(0, 0, 0, 0.06); }
+.mw-glass { border-color: rgba(255, 255, 255, 0.28); }
+
+.mw-muted { color: rgba(235, 235, 245, 0.62); }
+.mw-light .mw-muted { color: rgba(60, 60, 67, 0.62); }
+.mw-bold { font-weight: bold; }
+.mw-red { color: #ff453a; }
+.mw-shadow { text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8); }
+
+.mw-badge {
+  font-size: 0.7em; font-weight: bold; color: #fff;
+  border-radius: 0.45em; padding: 0.15em 0.4em;
+}
+
+.mw-btn {
+  background-color: rgba(255, 255, 255, 0.14);
+  border-radius: 1em; padding: 0.4em 1.1em; margin-top: 0.7em;
+  font-size: 0.9em; font-weight: bold; color: inherit;
+}
+.mw-btn:hover { background-color: rgba(255, 255, 255, 0.24); }
+.mw-light .mw-btn { background-color: rgba(0, 0, 0, 0.07); }
+.mw-light .mw-btn:hover { background-color: rgba(0, 0, 0, 0.13); }
+.mw-btn-sm { margin-top: 0; padding: 0.2em 0.8em; font-size: 0.78em; }
+.mw-ask { margin-top: 0.6em; padding: 0.6em; background-color: rgba(217, 119, 87, 0.28); }
+.mw-ask:hover { background-color: rgba(217, 119, 87, 0.45); }
+
+/* relógio */
+.mw-time { font-size: 4.2em; font-weight: 300; }
+.mw-secs { font-size: 1.8em; font-weight: 300; padding-bottom: 0.35em; }
+.mw-world { margin-top: 0.6em; }
+.mw-world-time { font-size: 1.5em; }
+
+/* calendário */
+.mw-bigday { font-size: 4.6em; font-weight: 300; }
+.mw-today {
+  background-color: #ff453a; color: #fff; font-weight: bold;
+  border-radius: 0.85em; min-width: 1.7em; text-align: center; padding: 0.1em 0;
+}
+
+/* cotações */
+.mw-qrow { spacing: 0.7em; }
+.mw-sep { border-top: 1px solid rgba(255, 255, 255, 0.09); }
+.mw-light .mw-sep { border-top-color: rgba(0, 0, 0, 0.08); }
+.mw-flag {
+  font-size: 1.15em; min-width: 1.9em; text-align: center;
+  background-color: rgba(255, 255, 255, 0.09); border-radius: 1em; padding: 0.25em 0;
+}
+.mw-pill-up, .mw-pill-down { font-size: 0.78em; font-weight: bold; border-radius: 0.4em; padding: 0.05em 0.45em; }
+.mw-pill-up { color: #30d158; background-color: rgba(48, 209, 88, 0.16); }
+.mw-pill-down { color: #ff453a; background-color: rgba(255, 69, 58, 0.16); }
+
+/* youtube */
+.mw-yt-card { border-radius: 0; }
+.mw-yt-shade {
+  background-gradient-direction: vertical;
+  background-gradient-start: rgba(0, 0, 0, 0);
+  background-gradient-end: rgba(0, 0, 0, 0.75);
+}
+.mw-yt-logo {
+  background-color: #ff0033; color: #fff;
+  border-radius: 0.7em; padding: 0.5em 0.9em;
+}
+
+/* spotify */
+.mw-t-spotify {
+  background-gradient-direction: vertical;
+  background-gradient-start: rgba(31, 59, 43, 0.92);
+  background-gradient-end: rgba(18, 18, 18, 0.92);
+  color: #f5f5f7;
+}
+.mw-t-spotify .mw-muted { color: rgba(255, 255, 255, 0.62); }
+.mw-ctrl { color: #fff; padding: 0.2em; border-radius: 1em; }
+.mw-ctrl:hover { background-color: rgba(255, 255, 255, 0.15); }
+.mw-play {
+  background-color: #fff; color: #000;
+  border-radius: 1.5em; padding: 0.6em;
+}
+.mw-play:hover { background-color: #e8e8e8; }
+
+/* IA */
+.mw-ai-btn { border-radius: 0.9em; padding: 0.3em 0.1em; color: inherit; }
+.mw-ai-btn:hover { background-color: rgba(255, 255, 255, 0.09); }
+.mw-light .mw-ai-btn:hover { background-color: rgba(0, 0, 0, 0.06); }
+.mw-ai-tile {
+  font-size: 1.35em; font-weight: bold; text-align: center;
+  min-width: 2.2em; padding: 0.4em 0; border-radius: 0.55em;
+}
+
+/* notas */
+.mw-t-notes { background-color: #fef7d3; color: #1c1c1e; border-color: rgba(0, 0, 0, 0.08); }
+.mw-notes-head {
+  background-color: #ffd60a; font-weight: bold; padding: 0.55em 1em;
+}
+.mw-notes-btn { color: #1c1c1e; }
+.mw-notes-text { padding: 0.7em 1em; font-size: 1.02em; color: #1c1c1e; }
+.mw-yt-badge {
+  background-color: #ff0033; color: #fff; font-size: 0.68em; font-weight: bold;
+  border-radius: 0.6em; padding: 0.25em 0.7em;
+}
+.mw-yt-paused { background-color: rgba(0, 0, 0, 0.6); }

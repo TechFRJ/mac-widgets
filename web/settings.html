@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Configurações dos widgets</title>
+<link rel="stylesheet" href="/web/settings.css">
+<script>window.TOKEN = "__TOKEN__";</script>
+</head>
+<body>
+<aside id="side">
+  <div class="side-title">Widgets</div>
+  <nav>
+    <button class="nav" data-pane="general"><span class="ni" style="background:#8e8e93">⚙</span>Geral</button>
+    <button class="nav" data-pane="add"><span class="ni" style="background:#0a84ff">+</span>Adicionar widget</button>
+    <button class="nav" data-pane="panel"><span class="ni" style="background:#5e5ce6">⌘</span>Painel Super+W</button>
+  </nav>
+  <div class="side-sub">Na área de trabalho</div>
+  <nav id="list"></nav>
+</aside>
+<main id="pane"></main>
+<input type="file" id="photo-input" accept="image/*" multiple hidden>
+<script src="/web/settings.js"></script>
+</body>
+</html>

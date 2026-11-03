@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Configurações dos Widgets
+GenericName=Widgets da área de trabalho
+Comment=Adicionar, remover, redimensionar e configurar os widgets
+Exec=python3 /home/fernando/mac-widgets/widgets.py --settings
+Icon=preferences-desktop-apps
+Categories=Settings;
+Keywords=widget;widgets;mac;cotação;spotify;fotos;
+StartupNotify=false

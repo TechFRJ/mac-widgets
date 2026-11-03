@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Widgets</title>
+<link rel="stylesheet" href="/web/style.css">
+<script>window.TOKEN = "__TOKEN__";</script>
+</head>
+<body>
+<div id="backdrop"></div>
+
+<header id="topbar">
+  <div id="top-time"></div>
+  <div class="top-actions">
+    <button id="btn-edit" class="pill">Editar widgets</button>
+    <button id="btn-close" class="pill round" title="Fechar (Esc)">✕</button>
+  </div>
+</header>
+
+<main id="board"><div id="ghost"></div></main>
+
+<section id="gallery" hidden>
+  <div class="gallery-head">
+    <h2>Adicionar widgets</h2>
+    <button id="btn-done" class="pill accent">Concluído</button>
+  </div>
+  <div id="gallery-list"></div>
+</section>
+
+<div id="modal" hidden>
+  <form id="modal-card" method="dialog">
+    <h3 id="modal-title"></h3>
+    <div id="modal-body"></div>
+    <div class="modal-actions">
+      <button type="button" class="pill" id="modal-cancel">Cancelar</button>
+      <button type="submit" class="pill accent">Salvar</button>
+    </div>
+  </form>
+</div>
+
+<input type="file" id="photo-input" accept="image/*" multiple hidden>
+<script src="/web/app.js"></script>
+</body>
+</html>
